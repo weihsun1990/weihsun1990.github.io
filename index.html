@@ -1,1 +1,17 @@
-<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/icon.png"><title>竹光國中選社系統</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"><script defer="defer" src="/js/chunk-vendors.7294eae0.js"></script><script defer="defer" src="/js/app.3b4e69b7.js"></script><link href="/css/app.5acf0d77.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but selection-system doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<!DOCTYPE html>
+<html>
+<body>
+<script type="text/javascript">
+    window.onload = function() {
+        // 嘗試打開你的 app，此處的 myapp 是你的 app 的 URL Scheme
+        window.location = 'https://app-link/pie-chart';
+
+        // 如果無法打開 app，那麼在 500 毫秒後導向到 app 的下載頁面
+        setTimeout(function() {
+            // 此處的 URL 應該是你的 app 在 Google Play 或 App Store 的頁面地址
+            window.location = 'https://play.google.com/store/apps/details?id=com.cathay.main&hl=zh_TW&gl=US';
+        }, 500);
+    };
+</script>
+</body>
+</html>
